@@ -1,7 +1,7 @@
 import flask
 
 
-application = flask.Flask()
+application = flask.Flask(__name__)
 
 
 @application.route('/', methods=['GET'])
