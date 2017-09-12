@@ -3,6 +3,7 @@
     "desc": "printout demo for Rakesh bhaiya",
     "image": "heroku/python",
     "repository": "https://github.com/theSage21/ircprints.git",
+    "keywords": ["python", "flask" ],
     "environments": {
         "test": {
             "scripts": {
