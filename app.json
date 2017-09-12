@@ -1,0 +1,13 @@
+{
+    "name": "IRC printout demo",
+    "desc": "printout demo for Rakesh bhaiya",
+    "image": "heroku/python",
+    "repository": "https://github.com/theSage21/ircprints.git",
+    "environments": {
+        "test": {
+            "scripts": {
+                "test": "python server.py"
+            }
+        }
+    }
+}
